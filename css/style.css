@@ -1,0 +1,79 @@
+/* General Reset for Clean Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* CSS Box Model applied consistently */
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 30px;
+    background: #4a90e2;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+.navbar {
+    margin: 20px 0;
+    text-align: center;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.navbar a:hover {
+    color: #1f3a93;
+}
+
+/* Main Content Sections */
+.box {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+.box h2 {
+    margin-bottom: 10px;
+    color: #4a90e2;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #eee;
+    border-top: 2px solid #4a90e2;
+    border-radius: 8px;
+}
